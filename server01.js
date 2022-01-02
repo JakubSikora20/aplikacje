@@ -7,7 +7,7 @@ let dane = [
 ]
 
 app.get("/", function (req, res) {
-    res.send("<h1>my app on heroku!!</h1>")
+    res.send("<h1>my app on heroku!!!</h1>")
 })
 
 app.get("/data", function (req, res) {
